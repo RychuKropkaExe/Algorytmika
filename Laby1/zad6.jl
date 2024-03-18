@@ -10,4 +10,5 @@ function horner(poly, n, x)
 
 end
 
+# x^3 + 2x^2 + 3x + 4
 println(horner([1,2,3,4], 4, 2))
