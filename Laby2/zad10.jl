@@ -1,5 +1,6 @@
 using Distributions
 
+# Monte Casino, zakładam że nie trzeba nic dodawać
 function monteCarlo(n)
 
     xs = rand(Uniform(0.0,pi),n)
